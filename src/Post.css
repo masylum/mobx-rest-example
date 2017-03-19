@@ -1,0 +1,29 @@
+.Post {
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
+  border-radius: 5px;
+  margin-bottom: 30px;
+  background: white;
+}
+
+.Post:last-child {
+  border-bottom: none;
+}
+
+.Post .Post__Link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #334;
+}
+
+.Post .Post__Link__Text {
+  text-transform: capitalize;
+  margin-right: 20px;
+}
+
+.Post .Post__Link__Text:hover {
+  color: #66f;
+}

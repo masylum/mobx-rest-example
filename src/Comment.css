@@ -1,0 +1,14 @@
+.Comment {
+  padding: 20px 0px;
+  border-bottom: 1px solid #eee;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.Comment--New {
+  color: #666;
+}
+
+.Comment:last-child {
+  border-bottom: none;
+}

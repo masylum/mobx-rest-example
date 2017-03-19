@@ -1,0 +1,23 @@
+.User {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.User__Initials {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 20px;
+  border-radius: 130px;
+  color: white;
+  font-size: 8px;
+  font-style: normal;
+  margin-right: 10px;
+  font-weight: 500;
+}
