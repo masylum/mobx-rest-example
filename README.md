@@ -21,7 +21,7 @@ Next was to install the dependencies:
 yarn add mobx
 yarn add mobx-react
 yarn add mobx-rest
-yarn add mobx-rest-jquery-adapter
+yarn add mobx-rest-fetch-adapter
 ```
 
 After this I created the 3 stores:
